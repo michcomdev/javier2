@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage>
               width: 40,
               child: Center(
                   child: Icon(
-                Icons.person_outlined,
+                Icons.description,
                 color: currentPage == 2 ? redlight3 : unselectedColor,
               )),
             ),

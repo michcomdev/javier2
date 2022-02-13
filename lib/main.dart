@@ -5,7 +5,7 @@ import 'package:myhealthy/utils/colors.dart';
 import 'package:sizer/sizer.dart';
 
 void main() {
-  initializeDateFormatting().then((_) =>runApp(const MyApp()));
+  initializeDateFormatting().then((_) => runApp(const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return Sizer(
       builder: (ctx, orientation, type) {
         return MaterialApp(
-            title: 'Flutter Demo',
+            title: 'Healthy',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(primaryColor: red3),
             home: HomePage());
